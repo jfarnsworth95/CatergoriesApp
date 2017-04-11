@@ -12,13 +12,13 @@ public class StartPage extends AppCompatActivity {
         setContentView(R.layout.activity_start_page);
     }
 
-    public void startGame(View view) {
-        //start game session
+    public void goTo_HostPage(View view) {
+        //Start game session
         //Make call to server
         //Move to host page
     }
 
-    public void joinGame(View view) {
-        //move to join page
+    public void goTo_JoinPage(View view) {
+        //Move to join page
     }
 }
