@@ -13,6 +13,7 @@ public class HostPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //set @strings/UNIQUE_ID to server generated unique ID
         //If no connection to server, go back to start page with error msg for user
+        //add to users to resources @lists/users, refresh every few seconds
         setContentView(R.layout.activity_join_page);
     }
 
