@@ -10,6 +10,13 @@
         android:hint="@string/join_uniqueIdField"
         android:textAlignment="center"
         android:textSize="35dp" />
+    <EditText android:id="@+id/join_userName"
+        android:layout_weight="3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:hint="@string/userNameHint"
+        android:textAlignment="center"
+        android:textSize="35dp" />
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
