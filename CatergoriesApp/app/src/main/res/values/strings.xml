@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Catergories Game</string>
+    <string name="btn_hostTxt">Host Game</string>
+    <string name="btn_joinTxt">Join Game</string>
 </resources>
