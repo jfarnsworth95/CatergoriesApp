@@ -23,5 +23,5 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_joinTxt"
         android:onClick="sendMessage"/>
-
+    <!-- test for git -->
 </RelativeLayout>

@@ -39,14 +39,15 @@
       <file leaf-file-name="activity_start_page.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start_page.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61574805">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.6692913">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="e#272#305#0" expanded="true" />
                 <element signature="e#330#365#0" expanded="true" />
                 <element signature="e#391#426#0" expanded="true" />
                 <element signature="e#450#483#0" expanded="true" />
                 <element signature="e#806#827#0" expanded="true" />
+                <element signature="e#990#1011#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2048,14 +2049,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start_page.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61574805">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.6692913">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="e#272#305#0" expanded="true" />
             <element signature="e#330#365#0" expanded="true" />
             <element signature="e#391#426#0" expanded="true" />
             <element signature="e#450#483#0" expanded="true" />
             <element signature="e#806#827#0" expanded="true" />
+            <element signature="e#990#1011#0" expanded="true" />
           </folding>
         </state>
       </provider>
