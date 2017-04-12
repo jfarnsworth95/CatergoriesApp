@@ -17,6 +17,7 @@ public class JoinPage extends AppCompatActivity{
 
     public void goTo_WaitPage(View view){
         //Make call to server (check if uniqueID valid)
+        //Set xml @strings var to equal verified unique id
         //Move to wait page if vaild
     }
 }
