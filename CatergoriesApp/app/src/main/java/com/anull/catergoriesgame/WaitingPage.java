@@ -13,10 +13,11 @@ public class WaitingPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //refresh list of other active users in lobby
-        setContentView(R.layout.activity_start_page);
+        setContentView(R.layout.activity_waiting_page);
     }
 
     public void goTo_HostPage(View view) {
+        //set @ints/totalPlayers to equal number of players in game
         //Move to game page when prompted by server
     }
 }
