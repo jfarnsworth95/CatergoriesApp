@@ -3,7 +3,6 @@ package com.anull.catergoriesgame;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.telephony.TelephonyManager;
 import android.view.View;
 
 public class StartPage extends AppCompatActivity {
