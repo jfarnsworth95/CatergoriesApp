@@ -1,10 +1,16 @@
 package com.anull.catergoriesgame;
 
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.telephony.TelephonyManager;
 import android.view.View;
 
 public class StartPage extends AppCompatActivity {
+
+
+    //http://developer.samsung.com/technical-doc/view.do?v=T000000103
+    public String androidId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

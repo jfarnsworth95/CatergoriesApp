@@ -2,12 +2,14 @@ package com.anull.catergoriesgame;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.telephony.TelephonyManager;
 import android.view.View;
 
 /**
  * Created by Jackson on 4/10/2017.
  */
 public class HostPage extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
