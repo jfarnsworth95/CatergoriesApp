@@ -4,10 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.ImageButton;
 import android.widget.TableLayout;
 import android.widget.TableRow;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Timer;
@@ -49,10 +47,6 @@ public class VotePage  extends AppCompatActivity {
 
     public void goTo_ScorePage(View view) {
         //Move to score page after sending vote list
-    }
-
-    public void onPress(){
-
     }
 
     /**
