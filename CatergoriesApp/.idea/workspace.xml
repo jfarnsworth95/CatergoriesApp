@@ -31,11 +31,13 @@
       <file leaf-file-name="VotePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anull/catergoriesgame/VotePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35095447">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.5756241">
+              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#482#490#0" expanded="true" />
+                <element signature="e#534#542#0" expanded="true" />
+                <element signature="e#934#1225#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2235,7 +2237,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#482#490#0" expanded="true" />
+            <element signature="e#534#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2307,7 +2309,7 @@
           <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#482#490#0" expanded="true" />
+            <element signature="e#534#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2516,11 +2518,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anull/catergoriesgame/VotePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35095447">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5756241">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#482#490#0" expanded="true" />
+            <element signature="e#534#542#0" expanded="true" />
+            <element signature="e#934#1225#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
           </folding>
         </state>
       </provider>

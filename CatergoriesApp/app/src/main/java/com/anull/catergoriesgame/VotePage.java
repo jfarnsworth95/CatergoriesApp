@@ -10,6 +10,8 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * Created by Jackson on 4/18/2017.
@@ -22,13 +24,27 @@ public class VotePage  extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vote_page);
-        //pull vote list from server
+
+        //TODO pull vote list from server
+
+        //TODO generate vote list layout in tableLayout
         createTableView();
-            //make all list elements buttons that change color when pressed
+
         //start timer for voting
-        //harvest t/f response for each element
-        //send completed vote list to server
-        //move to score page
+        Timer clock = new Timer();
+        clock.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                //TODO harvest t/f response for each element
+
+                //TODO send completed vote list to server
+
+                //move to score page
+                goTo_ScorePage(null);
+            }
+        }, 60*1000);
+
+
     }
 
     public void goTo_ScorePage(View view) {
@@ -44,12 +60,15 @@ public class VotePage  extends AppCompatActivity {
      * 10 categories, can be changed in the "i" based for loop.
      */
     public void createTableView(){
+        //TODO make all list elements buttons that change color when pressed
+        //TODO insert totalPlayers variable
+
         TableLayout tl = (TableLayout) findViewById(R.id.voteTable);
 
         for(int i = 0; i < 10; i ++){
             TableRow row = new TableRow(this);
 
-            for(int e = 0; e < totalPlayers; e ++){  //TODO insert totalPlayers variable
+            for(int e = 0; e < totalPlayers; e ++){
 
                 CheckBox checkBox = new CheckBox(this);
                 checkBox.setText(acceptedAnswers.get(e));
