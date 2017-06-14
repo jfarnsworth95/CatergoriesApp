@@ -13,7 +13,7 @@ public class HostPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //set @strings/UNIQUE_ID to server generated unique ID
+        //get server generated unique IDs
         //If no connection to server, go back to start page with error msg for user
         //add to users to resources @lists/users, refresh every few seconds
         setContentView(R.layout.activity_host_page);
