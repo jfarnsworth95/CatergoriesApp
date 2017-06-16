@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_joinTxt"
-        android:onClick="goTo_joinPage"
+        android:onClick="goTo_JoinPage"
         android:id="@+id/btn_Join"
         android:layout_marginTop="34dp"
         android:layout_below="@+id/btn_Host"

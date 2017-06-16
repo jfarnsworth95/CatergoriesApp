@@ -8,20 +8,20 @@ import android.view.View;
 
 public class StartPage extends AppCompatActivity {
 
-
-    //http://developer.samsung.com/technical-doc/view.do?v=T000000103
-    public String androidId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
-
     public final static String EXTRA_MESSAGE = "com.anull.catergoriesgame.MESSAGE";
+    public String androidId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_page);
+
+        //http://developer.samsung.com/technical-doc/view.do?v=T000000103
+        androidId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
     }
 
     public void goTo_HostPage(View view) {
-        //Start game session
+        //Notifiy server of new game session
         //Make call to server
 
         //Move to host page with necessary data

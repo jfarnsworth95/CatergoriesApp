@@ -53,16 +53,17 @@ public class VotePage  extends AppCompatActivity {
      * Dynamically creates table for vote page based on total players, and assumes there are
      * 10 categories, can be changed in the "i" based for loop.
      */
-    public void createTableView(){
+    public void createTableView() {
         //TODO make all list elements buttons that change color when pressed
         //TODO insert totalPlayers variable
+        int totalPlayers = 0;
 
         TableLayout tl = (TableLayout) findViewById(R.id.voteTable);
 
-        for(int i = 0; i < 10; i ++){
+        for (int i = 0; i < 10; i++) {
             TableRow row = new TableRow(this);
 
-            for(int e = 0; e < totalPlayers; e ++){
+            for (int e = 0; e < totalPlayers; e++) {
 
                 CheckBox checkBox = new CheckBox(this);
                 checkBox.setText(acceptedAnswers.get(e));
@@ -71,5 +72,5 @@ public class VotePage  extends AppCompatActivity {
 
             tl.addView(row);
         }
-
+    }
 }

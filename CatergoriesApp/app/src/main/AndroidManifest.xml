@@ -15,6 +15,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".HostPage"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".JoinPage"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".WaitingPage"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".GamePage"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".VotePage"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".ScorePage"
+            android:label="@string/app_name"/>
+
     </application>
 
 </manifest>
