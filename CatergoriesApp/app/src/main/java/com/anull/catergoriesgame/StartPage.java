@@ -9,20 +9,20 @@ import android.view.View;
 public class StartPage extends AppCompatActivity {
 
     public final static String EXTRA_MESSAGE = "com.anull.catergoriesgame.MESSAGE";
-    public String androidId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_page);
-
-        //http://developer.samsung.com/technical-doc/view.do?v=T000000103
-        androidId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
     }
 
     public void goTo_HostPage(View view) {
-        //Notifiy server of new game session
-        //Make call to server
+        //http://developer.samsung.com/technical-doc/view.do?v=T000000103
+        String androidId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
+
+        //TODO Notifiy server of new game session
+
+        //TODO Make call to server
 
         //Move to host page with necessary data
         Intent intent = new Intent(this, HostPage.class);
@@ -31,6 +31,9 @@ public class StartPage extends AppCompatActivity {
     }
 
     public void goTo_JoinPage(View view) {
+        //http://developer.samsung.com/technical-doc/view.do?v=T000000103
+        String androidId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
+
         //Move to join page
         Intent intent = new Intent(this, JoinPage.class);
         intent.putExtra(EXTRA_MESSAGE, androidId);
