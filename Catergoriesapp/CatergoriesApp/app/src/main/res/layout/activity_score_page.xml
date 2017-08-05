@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollIndicators="bottom">
+
+    <!-- The table will be made in the associated Java file due to its dynamic nature.
+         Will be a list from top to bottom ranking scores
+         Ties will be settled by alphabetical order of names
+         *** Maybe decrease size as users go down in score? ***
+    -->
+
+</TableLayout>
