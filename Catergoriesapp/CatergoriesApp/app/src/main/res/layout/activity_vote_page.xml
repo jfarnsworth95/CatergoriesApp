@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/voteTable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollIndicators="bottom">
+
+    <!-- The table will be made in the associated Java file due to its dynamic nature.
+         All elements will be check boxes with associated text corresponding to user answers.
+         First element in each row should not have a checkbox
+    -->
+
+    <!-- Checkbox example from:
+                https://developer.android.com/guide/topics/ui/controls/checkbox.html
+      
+    <CheckBox android:id="@+id/checkbox_meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hi"
+        android:onClick="onCheckboxClicked"/>
+     -->
+
+</TableLayout>

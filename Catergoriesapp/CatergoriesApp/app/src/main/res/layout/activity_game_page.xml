@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 1"
+            android:id="@+id/GamePage_Catergory1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 2"
+            android:id="@+id/GamePage_Catergory2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 3"
+            android:id="@+id/GamePage_Catergory3"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 4"
+            android:id="@+id/GamePage_Catergory4"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 5"
+            android:id="@+id/GamePage_Catergory5"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 6"
+            android:id="@+id/GamePage_Catergory6"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 7"
+            android:id="@+id/GamePage_Catergory7"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 8"
+            android:id="@+id/GamePage_Catergory8"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 9"
+            android:id="@+id/GamePage_Catergory9"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Catergory 10"
+            android:id="@+id/GamePage_Catergory10"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer3"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer4"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer5"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer6"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer7"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer8"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer9"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/GamePage_Answer10"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
