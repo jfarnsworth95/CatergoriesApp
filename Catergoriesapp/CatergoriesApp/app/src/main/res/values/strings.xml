@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Categories Game</string>
-    <string name="btn_hostTxt">Host Game</string>
-    <string name="btn_joinTxt">Join Game</string>
-    <string name="btn_startTxt">Start Game</string>
-    <string name="join_uniqueIdField">Enter Game ID</string>
-</resources>
