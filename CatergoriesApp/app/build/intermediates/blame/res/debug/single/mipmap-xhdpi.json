@@ -2,5 +2,9 @@
     {
         "merged": "E:\\AndroidProjectLocation\\CategoriesApp\\CatergoriesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "E:\\AndroidProjectLocation\\CategoriesApp\\CatergoriesApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidProjectLocation\\CatApp\\CatergoriesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "E:\\AndroidProjectLocation\\CatApp\\CatergoriesApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

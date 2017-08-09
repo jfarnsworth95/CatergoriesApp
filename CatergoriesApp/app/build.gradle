@@ -26,6 +26,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
 
+    // https://mvnrepository.com/artifact/javax/javaee-api
+    provided group: 'javax', name: 'javaee-api', version: '7.0'
+
     // https://mvnrepository.com/artifact/org.glassfish.tyrus/tyrus-client
     testCompile group: 'org.glassfish.tyrus', name: 'tyrus-client', version: '1.13.1'
 
