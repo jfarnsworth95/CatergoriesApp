@@ -1,5 +1,6 @@
 package com.anull.game_module;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
@@ -8,11 +9,28 @@ import org.json.JSONObject;
 
 public interface GamePartyInterface {
 
-    public void receiveConfirmInit(JSONObject json);
 
-    public void receiveConfirmJoin(JSONObject json);
 
-    public void receiveNParseJson();
+    public void receiveNParseJson(JSONObject json) throws JSONException;
+
+    public void receiveConfirmInit(JSONObject json) throws JSONException;
+
+    public void receiveConfirmJoin(JSONObject json) throws JSONException;
+
+    public void receiveUpdatedPlayerList(JSONObject json) throws JSONException;
+
+    public void receiveLetterNCategoryList(JSONObject json) throws JSONException;
+
+    public void receiveVoteList(JSONObject json) throws JSONException;
+
+    public void receiveResultList(JSONObject json) throws JSONException;
+
+    public void receiveConfirmRestart(JSONObject json) throws JSONException;
+
+    public void receiveConfirmTerminate(JSONObject json) throws JSONException;
+
+    public void receiveException(JSONObject json) throws JSONException;
+
 
     public JSONObject fabricateInitiatePartyJson();
 
