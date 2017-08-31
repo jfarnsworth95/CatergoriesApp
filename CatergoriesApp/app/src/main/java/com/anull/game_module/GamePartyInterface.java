@@ -46,4 +46,6 @@ public interface GamePartyInterface {
 
     public JSONObject fabricateTerminatePartyJson();
 
+    public void sendMsgToServer(JSONObject json);
+
 }

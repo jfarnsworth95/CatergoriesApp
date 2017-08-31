@@ -35,6 +35,13 @@ public class Player {
     }
 
 
+    public void parseAnswersFromJson(JSONObject json) throws JSONException{
+        JSONArray answerArray = json.getJSONArray(this.deviceID);
+        this.answers = new String[answerArray.length()];
+        for (int i = 0; i < answerArray.length(); i++){
+            this.answers[i] = answerArray.getString(i);
+        }
+    }
 
     public String getName() {
         return name;

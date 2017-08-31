@@ -1,4 +1,4 @@
-package com.anull.game_module;
+package com.anull.exception;
 
 /**
  * Created by zhaoy on 8/27/2017.
